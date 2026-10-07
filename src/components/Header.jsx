@@ -1,5 +1,6 @@
 import Logo from './Logo.jsx'
-import { SHOP, SOCIALS } from '../data/config.js'
+import { SHOP } from '../data/config.js'
+import { SOCIALS } from '../data/socials.jsx'
 
 export default function Header({ query, onQuery }) {
   return (
@@ -13,8 +14,17 @@ export default function Header({ query, onQuery }) {
       </div>
       <nav className="socials" aria-label="Kênh của Tiệm nhà số">
         {SOCIALS.map((s) => (
-          <a key={s.id} className={'social' + (s.url ? '' : ' off')} href={s.url || undefined}
-             target="_blank" rel="noopener noreferrer" aria-disabled={!s.url}>{s.label}</a>
+          <a 
+            key={s.id} 
+            className={'social' + (s.url ? '' : ' off')} 
+            href={s.url || undefined}
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label={s.label} 
+            aria-disabled={!s.url}
+          >
+            {s.icon}
+          </a>
         ))}
       </nav>
       <input className="search" type="search" value={query} onChange={(e) => onQuery(e.target.value)}

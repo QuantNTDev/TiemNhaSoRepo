@@ -28,17 +28,16 @@ body{margin:0;background:var(--mint);color:var(--ink);font-family:'Be Vietnam Pr
 .brand p{margin:2px 0 0;font-size:.9rem;color:var(--textsecondary);}
 .logo{width:56px;height:56px;border-radius:14px;object-fit:cover;flex:none}
 .logo-ph{display:grid;place-items:center;background:var(--pine);color:var(--sun);font-weight:800;letter-spacing:1px}
-.socials{display:flex;gap:8px;flex-wrap:wrap}
+.socials{display:flex;flex-wrap:wrap;gap: 16px; justify-content:center;}
 .social{
-  padding:8px 14px;
+  padding:8px 0px;
   border-radius:999px;
-  background:var(--buttonPrice);
   color:var(--white);
   text-decoration:none;
   font-size:.85rem;
   font-weight:500
 }
-.social:hover{background:var(--buttonPriceHover);}
+.social:hover{opacity: 0.7;}
 .search {
   width: 100%;
   padding: 10px 16px;
