@@ -9,9 +9,7 @@ export default function ProductCard({ p }) {
       <div className="card-content"> 
         <div className="thumb"
           onClick={() => {
-            if (p.videoUrl) {
-              window.open(p.videoUrl, '_blank', 'noopener,noreferrer')
-            }
+            if (p.videoUrl) window.location.href = p.videoUrl
           }}
         > 
           {p.image ? ( 
@@ -65,9 +63,6 @@ export default function ProductCard({ p }) {
         > 
           Mua ngay 
         </button> 
-        {/* {p.videoUrl && ( 
-          <a className="vid" href={p.videoUrl} target="_blank" rel="noopener noreferrer" > Xem video review </a> 
-        )}  */}
       </div> 
     </article>
   )

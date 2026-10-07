@@ -9,7 +9,8 @@ export function openProduct(p) {
     window.location.href = p.deepLink
     return
   }
-  window.open(p.url, '_blank', 'noopener,noreferrer')
+  // window.open(p.url, '_blank', 'noopener,noreferrer')
+  window.location.href = p.url
 }
 
 export const formatPrice = (n) => n.toLocaleString('vi-VN') + 'đ'
