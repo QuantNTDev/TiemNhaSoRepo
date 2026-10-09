@@ -1,4 +1,4 @@
-import { openProduct, formatPrice } from '../utils/openLink.js'
+import { openProduct, formatPrice, goTo } from '../utils/openLink.js'
 
 const PLATFORM = { shopee: 'Shopee', tiktok: 'TikTok Shop' }
 
@@ -9,7 +9,7 @@ export default function ProductCard({ p }) {
       <div className="card-content"> 
         <div className="thumb"
           onClick={() => {
-            if (p.videoUrl) window.location.href = p.videoUrl
+            if (p.videoUrl) goTo(p.videoUrl)
           }}
         > 
           {p.image ? ( 
