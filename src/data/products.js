@@ -53,10 +53,10 @@ export const PRODUCTS = [
     category: 'Gia dụng', 
     platform: 'shopee', 
     emoji: '🥤', 
-    image: 'https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-ms6oqgrwo16pcc.webp', 
-    url: 'https://s.shopee.vn/2qVKqFu1Bf', 
+    image: 'https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-mp32k44n5897ea@resize_w900_nl.webp', 
+    url: 'https://s.shopee.vn/9Kimho39yW', 
     deepLink: '', 
-    videoUrl: 'https://youtube.com/shorts/Isrpi8LS7pE?feature=share' 
+    videoUrl: 'https://youtube.com/shorts/wFSwwIjG3OQ?feature=share' 
   },
   { 
     id: 5, 
