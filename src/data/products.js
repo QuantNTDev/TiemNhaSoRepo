@@ -45,6 +45,32 @@ export const PRODUCTS = [
     deepLink: '', 
     videoUrl: 'https://studio.youtube.com/video/s9WyeYCRiMc/edit' 
   },
+  { 
+    id: 4, 
+    name: 'Máy sấy quần áo gấp gọn Kawu', 
+    price: 1588888,
+    priceMin: 408888,
+    category: 'Gia dụng', 
+    platform: 'shopee', 
+    emoji: '🥤', 
+    image: 'https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-ms6oqgrwo16pcc.webp', 
+    url: 'https://s.shopee.vn/2qVKqFu1Bf', 
+    deepLink: '', 
+    videoUrl: 'https://youtube.com/shorts/Isrpi8LS7pE?feature=share' 
+  },
+  { 
+    id: 5, 
+    name: 'Hộp cơm cắm điện 2L Kawu', 
+    price: 788888,
+    priceMin: 588888,
+    category: 'Gia dụng', 
+    platform: 'shopee', 
+    emoji: '🥤', 
+    image: 'https://down-vn.img.susercontent.com/file/vn-11134207-81ztc-ms6oqgrwo16pcc.webp', 
+    url: 'https://s.shopee.vn/2qVKqFu1Bf', 
+    deepLink: '', 
+    videoUrl: 'https://youtube.com/shorts/Isrpi8LS7pE?feature=share' 
+  },
   // { id: 3, name: 'Bộ hộp đựng thực phẩm 10 món', price: 159000, category: 'Đồ bếp', platform: 'shopee', emoji: '🥡', image: '', url: 'https://shopee.vn/', deepLink: '', videoUrl: '' },
   // { id: 4, name: 'Robot hút bụi lau nhà', price: 3490000, category: 'Gia dụng', platform: 'shopee', emoji: '🤖', image: '', url: 'https://shopee.vn/', deepLink: '', videoUrl: '' },
   // { id: 5, name: 'Đèn ngủ cảm ứng tiết kiệm điện', price: 89000, category: 'Gia dụng', platform: 'tiktok', emoji: '💡', image: '', url: 'https://www.tiktok.com/', deepLink: '', videoUrl: '' },
